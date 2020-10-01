@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>QR Code Generator</title>
+    <link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="/eel.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    
+</head>
+
+<body>
+    <section class="wellcome_area clearfix" id="home">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 col-md">
+                    <div class="wellcome-heading">
+                        <h2>NASA SPACE APP CHALLENGE 2020</h2>
+                        <h3>NASA</h3>
+                        <p>Please enter the following Information</p>
+                    </div>
+                    <div class="get-start-area">
+                        <form class="form-block" id="input_form">
+                                <select name="cars" id="work">
+                                <option value="volvo">Volvo</option>
+                                <option value="saab">Saab</option>
+                                <option value="mercedes">Mercedes</option>
+                                <option value="audi">Audi</option>
+                                </select>    
+                            <input type="number" id="data1" class="form-control email" placeholder="Diet" min="2500" max="4000" required>
+                            <input type="number" id="data2" class="form-control email" placeholder="Fitness" min="650" max="950" required>
+                            <input type="number" id="data3" class="form-control email" placeholder="Noise" min="60" max="85" required>
+                            <select name="cars" id="medication">
+                                <option value="volvo">Volvo</option>
+                                <option value="saab">Saab</option>
+                                <option value="mercedes">Mercedes</option>
+                                <option value="audi">Audi</option>
+                            </select>
+                            <input type="number" id="data6" class="linechange"  placeholder="pre-flight" min="380" max="420" required>
+                            <input type="number" id="data7" class="form-control email" placeholder="in-flight" min="280" max="320" required>
+                            <input type="number" id="data8" class="form-control email" placeholder="slam-shift" min="180" max="300" required>
+                            <input type="button" class="submit" value="Submit" onclick="calljs()">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="welcome-thumb">
+            <img id="qr" src="" width="60%">
+        </div>
+    </section>
+</body>
+</html>
