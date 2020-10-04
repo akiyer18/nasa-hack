@@ -1,7 +1,7 @@
 # Sleep Shift Scheduling Tool
 # Cosmorepophilae
 
-## Sleep loss and fatigue may lead to reduced performance and an increased risk to safety during many activities, including spaceflight. Your challenge is to develop an operational sleep shift scheduling tool that provides autonomous customization of a schedule for sleep, exercise, and nutrition to manage fatigue.
+## Sleep loss and fatigue may lead to reduced performance and an increased risk to safety during many activities, including spaceflight. Our challenge was to develop an operational sleep shift scheduling tool that provides autonomous customization of a schedule for sleep, exercise, and nutrition to manage fatigue.
 
 
 To replicate the results:
