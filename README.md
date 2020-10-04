@@ -22,6 +22,10 @@ python3 QRCode.py
 
 To access the weights of our trained model: [Drive](https://drive.google.com/file/d/1tB2V1Jy-IhIHMtpSCnc27qykApu_xzqp/view?usp=sharing) 
 
+## Todo
+- [ ] Improve the model by testing on the actual NASA dataset
+
+
 Contributions to the repository is most welcome. (Contributions will be accepted only after the results are declared)
 
 # Contributing
