@@ -6,7 +6,6 @@ import pandas as pd
 import seaborn as sns
 from keras.layers import Dropout
 import json
-from google.colab import files
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers
