@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>QR Code Generator</title>
+    <link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="/eel.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    
+</head>
+
+<body>
+    <section class="wellcome_area clearfix" id="home">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 col-md">
+                    <div class="wellcome-heading">
+                        <h2>NASA SPACE APP CHALLENGE 2020</h2>
+                        <h3>NASA</h3>
+                        <p>Please enter the following Information</p>
+                    </div>
+                    <div class="get-start-area">
+                        <form class="form-block" id="input_form">
+                                <select name="work_name" id="work">
+                                <option value="1">Commander</option>
+                                <option value="2">Flight Engineer 1</option>
+                                <option value="3">Flight Engineer 2</option>
+                                <option value="4">Science Officer</option>
+                                </select>    
+                            <input type="number" id="data_workhours" class="form-control email" placeholder="Number of Hours" min="1" max="24" required>
+                            <!-- <input type="number" id="data_diet" class="form-control email" placeholder="Diet" min="2500" max="4000" required> -->
+                            <input type="number" id="data_noise" class="form-control email" placeholder="Noise" min="60" max="85" required>
+                            <select name="medicine" id="medication">
+                                <option value="0">No Medicines</option>
+                                <option value="1">Medicine1</option>
+                                <option value="2">Medicine2</option>
+                                <option value="3">Medicine3</option>
+                                <option value="4">Medicine4</option>
+                            </select>
+                            <input type="button" class="submit" value="Update Info" onclick="calljs()">
+                            <button class="submit"><a href="./timetable.html">Submit</a></button>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="welcome-thumb">
+            <img id="qr" src="" width="60%">
+        </div>
+    </section>
+</body>
+</html>

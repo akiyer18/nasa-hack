@@ -17,7 +17,7 @@ python3 script.py
 Then,
 ```
 cd gui
-python3 QRCode.py
+python3 script2.py
 ```
 
 To access the weights of our trained model: [Drive](https://drive.google.com/file/d/1tB2V1Jy-IhIHMtpSCnc27qykApu_xzqp/view?usp=sharing) 
