@@ -21,8 +21,13 @@ cd gui
 python3 script2.py
 ```
 ### Screenshots:
+### Login page:
 ![alt text](images/1.jpeg "Login page")
 
+### Generated timetable:
+![alt text](images/2.jpeg "Login page")
+![alt text](images/3.jpeg "Login page")
+![alt text](images/4.jpeg "Login page")
 
 
 To access the weights of our trained model: [Drive](https://drive.google.com/file/d/1tB2V1Jy-IhIHMtpSCnc27qykApu_xzqp/view?usp=sharing) 
