@@ -1,5 +1,5 @@
 # Sleep Shift Scheduling Tool
-# Cosmorepophilae
+# Cosmorepophilia
 
 ## Sleep loss and fatigue may lead to reduced performance and an increased risk to safety during many activities, including spaceflight. Our challenge was to develop an operational sleep shift scheduling tool that provides autonomous customization of a schedule for sleep, exercise, and nutrition to manage fatigue.
 
@@ -20,7 +20,7 @@ Then,
 cd gui
 python3 script2.py
 ```
-
+![alt text](images/1.jpeg "Title")
 To access the weights of our trained model: [Drive](https://drive.google.com/file/d/1tB2V1Jy-IhIHMtpSCnc27qykApu_xzqp/view?usp=sharing) 
 
 ## Todo
