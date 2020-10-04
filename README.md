@@ -20,7 +20,11 @@ Then,
 cd gui
 python3 script2.py
 ```
-![alt text](images/1.jpeg "Title")
+### Screenshots:
+![alt text](images/1.jpeg "Login page")
+
+
+
 To access the weights of our trained model: [Drive](https://drive.google.com/file/d/1tB2V1Jy-IhIHMtpSCnc27qykApu_xzqp/view?usp=sharing) 
 
 ## Todo
